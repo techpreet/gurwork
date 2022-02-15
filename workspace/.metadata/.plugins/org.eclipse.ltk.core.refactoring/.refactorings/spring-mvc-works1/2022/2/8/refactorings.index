@@ -1,0 +1,13 @@
+1644811566306	Move 'web.xml' to 'WEB-INF'
+1644817885569	Rename resource 'Index.jsp'
+1644830365005	Rename type 'Questions'
+1644830855743	Rename compilation unit 'QuestionDao.java'
+1644831301614	Delete element
+1644831348215	Move 'css' to 'webapp'
+1644831616526	Rename resource 'error.jsp'
+1644831630120	Rename resource 'footer.jsp'
+1644834427993	Rename resource 'error.jspf'
+1644921824660	Copy compilation unit
+1644922949765	Copy folder
+1644923048996	Copy folder
+1644924066803	Copy package

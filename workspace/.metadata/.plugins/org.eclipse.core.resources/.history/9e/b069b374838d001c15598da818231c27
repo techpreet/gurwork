@@ -1,0 +1,5 @@
+package com.gur.connection;
+
+public class GetConnection {
+
+}

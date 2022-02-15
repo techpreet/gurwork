@@ -1,0 +1,5 @@
+package com.gur.config;
+
+public class AppConfig {
+
+}

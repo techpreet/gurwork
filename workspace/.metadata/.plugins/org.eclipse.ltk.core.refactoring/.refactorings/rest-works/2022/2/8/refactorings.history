@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;com.gur.rest.works.controller&apos; to &apos;rest-works/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;rest-works&apos;&#x0D;&#x0A;- Destination element: &apos;rest-works/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;rest-works/src/test/java/com.gur.rest.works.controller&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;com.gur.rest.works.controller" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1644907235137" version="1.0"/>
+</session>

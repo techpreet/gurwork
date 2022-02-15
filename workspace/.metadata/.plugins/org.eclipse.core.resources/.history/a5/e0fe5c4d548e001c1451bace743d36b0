@@ -1,0 +1,55 @@
+package com.gur.dao;
+
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Component;
+
+import com.gur.beans.Students;
+import com.gur.connection.GetConnection;
+
+@Component
+public class StudentDAO {
+
+	// you might have connect with DB to get the questions
+	PreparedStatement ps = null;
+
+
+	public boolean saveQuestion(Students student) {
+		System.out.println("ID " + student.getStudentId());
+		System.out.println("Name " + student.getStudentName());
+		System.out.println("DOB" + student.getStudentDob());
+		
+		
+		return student.getStudentName().length() > 3;
+
+	}
+	
+	
+	public List<Students> getAllStudents() {
+		String sql ="select * from student";
+		try {
+			ps = GetConnection.getMysql().prepareStatement(sql); 
+			ResultSet resultSet = ps.executeQuery();
+			students = new ArrayList<Students>(); 
+			while(resultSet.next()) {
+				Students student = new Students(); 
+				student.setStudentId(resultSet.getInt(1));
+				student.setStudentName(resultSet.getString(2));
+				student.setStudentDob(resultSet.getString(3));
+				students.add(student);
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+			
+		}
+		return students; 
+	}
+	
+	
+	
+	
+}

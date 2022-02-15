@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modules>
+  <module moduleId="org.eclipse.jst.jee.server:student-app" serverId="apache-tomcat-9.0.55 at localhost (2)"/>
+  <module moduleId="org.eclipse.jst.jee.server:spring-mvc-works1" serverId="apache-tomcat-9.0.55 at localhost (2)"/>
+  <module moduleId="org.eclipse.jst.jee.server:webworks" serverId="apache-tomcat-9.0.55 at localhost"/>
+</modules>

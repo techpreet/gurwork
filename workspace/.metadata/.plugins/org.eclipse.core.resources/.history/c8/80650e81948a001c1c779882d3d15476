@@ -1,0 +1,21 @@
+package com.practice.app;
+import com.practice.beans.Student;
+
+public class App {
+
+	public static void main(String[] args) {
+		Student st= new Student();
+		st.setStuName("gurpreet");
+		st.setRollNo(100);
+		st.setStuEmail("Gurpreet@gmail.com");
+		System.out.println(st);
+		
+		Student st1= new Student();
+		st1.setStuName("gur");
+		st1.setRollNo(101);
+		st1.setStuEmail("Gur@gmail.com");
+		System.out.println(st1);
+
+	}
+
+}

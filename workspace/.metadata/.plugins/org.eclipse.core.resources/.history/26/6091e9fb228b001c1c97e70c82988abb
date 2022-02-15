@@ -1,0 +1,40 @@
+package com.gur.controller;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.gur.beans.Login;
+import com.gur.dao.LoginDao;
+ 
+@WebServlet("/login-validate")
+public class LoginValidateServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+ 
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		 
+		String userName = request.getParameter("uname"); 
+		String password = request.getParameter("pass"); 
+		
+		Login login = new Login(); 
+		login.setUserName(userName); 
+		login.setPassword(password);
+		
+		if(new LoginDao().loginValidate(login)) {
+			// invoke login success servlet 
+			request.getRequestDispatcher("success").forward(request, response);
+		}else {
+			// show the login form with the error message 
+			System.out.println("in else case.. ");
+			response.setContentType("text/html"); 
+			response.getWriter().println("<p style='color:red'>Please Enter valid Credentails</p>");
+			request.getRequestDispatcher("/login-form.html").include(request, response); 
+			
+		}
+		
+	}
+
+}

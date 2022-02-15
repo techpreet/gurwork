@@ -1,0 +1,14 @@
+package com.practice.app;
+import com.practice.beans.Student;
+
+public class App {
+
+	public static void main(String[] args) {
+		Student st= new Student();
+		st.setStuName("gurpreet");
+		System.out.println(st.getStuName());
+		System.out.println(st);
+
+	}
+
+}
