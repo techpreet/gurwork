@@ -1,0 +1,60 @@
+
+
+### 
+
+GET http://localhost:9191/ HTTP/1.1
+Content-Type: application/json
+ 
+
+
+### 
+
+GET http://localhost:9191/user HTTP/1.1
+Content-Type: application/json
+ 
+
+
+### 
+
+GET http://localhost:9191/user/106 HTTP/1.1
+Content-Type: application/json
+ 
+
+
+
+### 
+
+POST http://localhost:9191/user HTTP/1.1
+Content-Type: application/json
+Accept: application/json
+ 
+{
+  "id": 105,
+  "name": "Ojashvi",
+  "income1": 3535,
+  "email": "objashvi@gmail.com"
+}
+
+
+
+### 
+
+DELETE http://localhost:9191/user/105 HTTP/1.1
+Content-Type: application/json
+
+### 
+
+GET http://localhost:9191/actuator HTTP/1.1
+Content-Type: application/json
+
+
+trainer registration 
+{ "trainer-name":String, 
+"years-of-exp":Integer, 
+"technologies":[ { "name":String, 
+    "years-of-exp":Integer, 
+    "expert-handle":enum(Freshers/Laterals/Consultancy)}],
+"contact-details":[{"phone":long,"email":String,"linkdin":String,}],
+"Address":[{"HNO":String, "streetName":String,"State":String,"Pin":long}],
+}
+
