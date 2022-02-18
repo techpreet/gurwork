@@ -48,6 +48,17 @@ GET http://localhost:9191/actuator HTTP/1.1
 Content-Type: application/json
 
 
+###
+
+GET http://localhost:8200/address/gur HTTP/1.1
+Content-Type: application/json
+
+###
+
+GET http://localhost:9191/user/address/gur HTTP/1.1
+Content-Type: application/json
+
+
 trainer registration 
 { "trainer-name":String, 
 "years-of-exp":Integer, 

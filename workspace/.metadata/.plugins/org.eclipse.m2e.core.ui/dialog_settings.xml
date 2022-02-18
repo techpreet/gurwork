@@ -96,6 +96,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\Gurpreet Singh Saini\Desktop\my_work\workspace\eureka-server"/>
+			<item value="C:\Users\Gurpreet Singh Saini\Desktop\my_work\workspace\docker-test"/>
 			<item value="C:\Users\Gurpreet Singh Saini\Desktop\New folder\workspace\rest-works"/>
 		</list>
 		<list key="projectNameTemplate">

@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.gur.rest.works.beans.UserInfo;
 import com.gur.rest.works.exception.UserNotFoundException;
+import com.gur.rest.works.proxy.UserAddressProxy;
 import com.gur.rest.works.service.UserService;
 
 @RestController
@@ -21,9 +22,16 @@ public class UserController {
 	@Autowired
 	private UserService service;
 
+	private UserAddressProxy userProxy;
+
 	@GetMapping("/")
 	public String sayHello() {
 		return "Service Is Up";
+	}
+
+	@GetMapping("/user/address/{name}")
+	public String getUserAddress(String name) {
+		return userProxy.getAddress(name);
 	}
 
 	// GET http://localhost:9090/user
@@ -50,12 +58,9 @@ public class UserController {
 		UserInfo returnedUser = service.saveUser(user);
 		return ResponseEntity.status(HttpStatus.CREATED).body(returnedUser);
 	}
-	
-	
-	
+
 	// PUT -> update
-	// DELETE -> delete 
-	// GET - get users by name 
-	
-	
+	// DELETE -> delete
+	// GET - get users by name
+
 }
