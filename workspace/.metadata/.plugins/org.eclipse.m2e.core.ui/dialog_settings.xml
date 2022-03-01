@@ -96,11 +96,26 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\Gurpreet Singh Saini\Desktop\version2\t5-api-gateway"/>
+			<item value="C:\Users\Gurpreet Singh Saini\Desktop\version2\t5-toc"/>
+			<item value="C:\Users\Gurpreet Singh Saini\Desktop\version2\t5-eureka"/>
+			<item value="C:\Users\Gurpreet Singh Saini\Desktop\version2\t5-trainer-service"/>
+			<item value="C:\Users\Gurpreet Singh Saini\Desktop\version2\t5-employee-service"/>
+			<item value="C:\Users\Gurpreet Singh Saini\Desktop\version2\t5-employee-service\employee-service"/>
+			<item value="C:\Users\Gurpreet Singh Saini\Desktop\version2\t5-employee-service\employee"/>
+			<item value="C:\Users\Gurpreet Singh Saini\Desktop\version2\t5-trainer-service\trainer"/>
+			<item value="C:\Users\Gurpreet Singh Saini\Desktop\my_work\sapient-inters-jan-2022\embeded-db-spring-boot"/>
+			<item value="C:\Users\Gurpreet Singh Saini\Desktop\spring-security-jwt"/>
+			<item value="C:\Users\Gurpreet Singh Saini\Desktop\my_work\workspace\api-gateway"/>
+			<item value="C:\Users\Gurpreet Singh Saini\Desktop\my_work\workspace\user-address"/>
 			<item value="C:\Users\Gurpreet Singh Saini\Desktop\my_work\workspace\eureka-server"/>
 			<item value="C:\Users\Gurpreet Singh Saini\Desktop\my_work\workspace\docker-test"/>
 			<item value="C:\Users\Gurpreet Singh Saini\Desktop\New folder\workspace\rest-works"/>
 		</list>
 		<list key="projectNameTemplate">
+			<item value="api-gateway(team5)"/>
+			<item value="eureka-server(team5)"/>
+			<item value="employee-service"/>
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
 			<item value="[artifactId]-[version]"/>
