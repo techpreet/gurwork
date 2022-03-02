@@ -96,6 +96,12 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\gursingh48\Desktop\version2\t5-trainer-service"/>
+			<item value="C:\Users\gursingh48\Desktop\gurwork\workspace\app"/>
+			<item value="C:\Users\gursingh48\Desktop\gurwork\workspace\user-address"/>
+			<item value="C:\Users\gursingh48\Desktop\gurwork\workspace\api-gateway"/>
+			<item value="C:\Users\gursingh48\Desktop\gurwork\workspace\eureka-server"/>
+			<item value="C:\Users\gursingh48\Desktop\gurwork\workspace\rest-works"/>
 			<item value="C:\Users\Gurpreet Singh Saini\Desktop\my_work\workspace\eureka-server"/>
 			<item value="C:\Users\Gurpreet Singh Saini\Desktop\my_work\workspace\docker-test"/>
 			<item value="C:\Users\Gurpreet Singh Saini\Desktop\New folder\workspace\rest-works"/>
